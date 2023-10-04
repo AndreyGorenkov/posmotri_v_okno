@@ -94,6 +94,7 @@ ul li:not(:last-child) {
   align-items: flex-end;
   gap: 30px;
   max-height: 534px;
+  height: 100%;
   margin: 133px 30px;
 }
 
@@ -103,7 +104,9 @@ ul li:not(:last-child) {
 
 .result__video-container {
   position: relative;
-  margin-bottom: 10px;
+  max-width: 711px;
+  max-height: 386px;
+  margin-bottom: 16px;
 }
 
 .result__video {
@@ -112,7 +115,7 @@ ul li:not(:last-child) {
   object-fit: cover;
   object-position: center ;
 }
- 
+
 .content__list {
   position: relative;
   overflow: auto;
@@ -130,7 +133,9 @@ ul li:not(:last-child) {
 }
 
 .content__details {
+  align-self: flex-start;
   max-width: 399px;
+  width: 100%;
 }
 
 .content__video-card {
@@ -252,13 +257,6 @@ ul li:not(:last-child) {
   width: 19px;
   height: 19px;
   border: 1px solid #fff;
-}
-
-input[type="checkbox"]:checked + span::after {
-  position: absolute;
-  content: '';
-  inset: 1px;
-  background-color: #fff;
 }
 
 .search-form__submit-button {

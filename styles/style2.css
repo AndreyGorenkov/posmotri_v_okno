@@ -1,0 +1,11 @@
+.preloader-template {
+    position: absolute;
+    inset: 0;
+  }
+
+input[type="checkbox"]:checked + span::after {
+    position: absolute;
+    content: '';
+    inset: 1px;
+    background-color: #fff;
+  }
