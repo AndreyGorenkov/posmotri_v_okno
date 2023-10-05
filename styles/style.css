@@ -16,8 +16,6 @@ html {
   font-family: 'Fira Sans Condensed', sans-serif;
   font-size: 18px;
   background-color: #1b1919;
-  border: 1px solid red;
-  
 }
 
 h1,
@@ -206,21 +204,21 @@ ul li:not(:last-child) {
 }
 
 .search-form__textfield {
-    padding: 2px 0;
-    color: rgba(255, 255, 255, 0.70);
-    font-family: Fira Sans Condensed;
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-    width: 100%;
-    background: transparent;
-    border-right: transparent;
-    border-left: transparent;
-    border-top: 1px solid #fff;
-    border-bottom: 1px solid #fff;
-    appearance: none;
-    outline: none;
+  padding: 2px 0;
+  color: rgba(255, 255, 255, 0.70);
+  font-family: Fira Sans Condensed;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  width: 100%;
+  background: transparent;
+  border-right: transparent;
+  border-left: transparent;
+  border-top: 1px solid #fff;
+  border-bottom: 1px solid #fff;
+  appearance: none;
+  outline: none;
 }
 
 
@@ -233,8 +231,15 @@ ul li:not(:last-child) {
 }
 
 .search-form__label:hover {
-  text-decoration: underline;
   cursor: pointer;
+}
+
+.search-form__label-text {
+  vertical-align: middle;
+}
+
+.search-form__label-text:hover {
+  text-decoration: underline;
 }
 
 .search-form__label:has(:focus-visible) {
@@ -253,7 +258,7 @@ ul li:not(:last-child) {
 .search-form__pseudo-checkbox {
   position: relative;
   display: inline-block;
-  vertical-align: bottom;
+  vertical-align: middle;
   width: 19px;
   height: 19px;
   border: 1px solid #fff;
@@ -277,7 +282,6 @@ ul li:not(:last-child) {
 
 .content__card-link:hover {
   text-decoration: underline;
-
 }
 
 .content__card-link:active {
